@@ -7,3 +7,8 @@ positiveBtn.onclick = function() {
     myCount += 1;
     result.innerText = myCount;
 };
+negativeBtn.onclick = function() {
+    //decrrement method 
+    myCount -= 1;
+    result.innerText = myCount;
+};
